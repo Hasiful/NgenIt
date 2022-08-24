@@ -1,0 +1,95 @@
+@media(min-width: 540px) {
+    .main_footer_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .main_footer_item:not(:first-child) {
+        padding-left: 48px;
+    }
+    .main_footer_item:nth-child(3) {
+        padding-left: 0px !important;
+    }
+    .feature_content_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .product_veiw_details_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why_chose_software_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 767px) {
+    .header_top_nav>ul>li:nth-child(1),
+    .header_top_nav>ul>li:nth-child(3),
+    .header_top_nav>ul>li:nth-child(4) {
+        display: block;
+    }
+    .submenu_single_page {
+        display: block;
+    }
+    .main_footer_wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .feature_content_wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .industry_section_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 991px) {
+    .solution_feature_wrapper2 {
+        flex-direction: row-reverse !important;
+        gap: 0px;
+    }
+    .solution_feature_wrapper {
+        flex-direction: row;
+        gap: 0px;
+    }
+    .solution_feature_content {
+        width: 45%;
+    }
+    .solution_feature_image {
+        width: 45%;
+    }
+    .product_veiw_details_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .why_chose_software_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(min-width: 1200px) {
+    .header_top_left {
+        visibility: hidden;
+    }
+    .header_logo {
+        display: block;
+    }
+    .header_nav {
+        display: block;
+    }
+    .header_search {
+        max-width: 270px;
+        height: 36px;
+        width: 100%;
+        position: relative;
+    }
+    .header_search {
+        max-width: 270px;
+        height: 36px;
+        width: 100%;
+        position: relative;
+    }
+    .mobile_toggoler {
+        display: none;
+    }
+    .industry_section_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

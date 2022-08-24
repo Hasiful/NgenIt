@@ -1,0 +1,258 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,
+li,
+a,
+img,
+p,
+h1,
+h2,
+h3,
+h4.h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.input_control::placeholder {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 200;
+}
+
+.section_padding {
+    padding: 50px 0px;
+}
+
+.section_title {
+    max-width: 885px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.title_top_heading {
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--heading);
+    margin-bottom: 14px;
+    font-weight: 100;
+}
+
+.title_tex_content {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+:root {
+    --bgColor: #f7f6f5;
+    --primaryColor: #fff;
+    --subColor: #5f5753;
+    --mainColor: #ae0a46;
+    --lastColor: #7e0733;
+    --topHover: #6f062d;
+    --navColor: #3e332d;
+    --heading: #222222;
+}
+
+
+/* mobile nav */
+
+.mobile_toggoler {
+    display: block;
+}
+
+.mobile_toggoler ul {}
+
+.mobile_toggoler ul li {
+    background-color: var(--navColor);
+    height: 2px;
+    margin: 4px 0px;
+    width: 20px;
+}
+
+
+/* mobile nav end*/
+
+
+/* 
+======================
+ footer section start
+======================
+*/
+
+.footer_section {
+    background-color: var(--heading);
+    color: var(--primaryColor);
+}
+
+.footer_gradient {
+    padding: 24px 0px;
+    background: linear-gradient(90deg, #ae0a46, #a80b6e, #582873);
+}
+
+.footer_gradient_content {
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--primaryColor);
+    font-family: cursive;
+}
+
+.main_footer {
+    padding: 48px 0px;
+}
+
+.main_footer_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
+.main_footer_item {}
+
+.main_footer_item_title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.main_footer_item_text {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 6px;
+}
+
+.main_footer_item_button {
+    font-size: 14px;
+    color: var(--primaryColor);
+    line-height: 20px;
+    padding: 10px 22px;
+    background-color: var(--mainColor);
+    display: inline-block;
+    transition: all linear 0.3s;
+    margin-top: 15px;
+}
+
+.main_footer_item_button:hover {
+    background-color: var(--lastColor);
+    color: #fff;
+}
+
+.footer_item_logo {
+    width: 70px;
+    height: 36px;
+    color: #fff;
+    margin-left: 7px!important;
+    margin-top: 55px;
+}
+
+.footer_item_logo img {
+    width: 100%;
+    display: block;
+}
+
+.footer_nav_list ul li {
+    margin-bottom: 6px;
+}
+
+.footer_nav_list ul li a {
+    display: inline-block;
+    color: var(--bgColor);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer_nav_list ul li a:hover {
+    color: hsla(30, 11%, 96%, .7);
+}
+
+.footer_social {
+    padding: 24px 0px;
+    border-top: 1px solid var(--subColor);
+    border-bottom: 1px solid var(--subColor);
+}
+
+.footer_social_list {
+    max-width: 270px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.footer_social_list ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_social_list ul li a i {
+    display: inline-flex;
+    font-size: 28px;
+    color: var(--primaryColor);
+}
+
+.footer_social_list ul li a:hover i {
+    color: var(--mainColor);
+}
+
+.footer_bottom {
+    padding: 48px 0px;
+}
+
+.footer_bottom_wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footer_copy {
+    width: 65px;
+}
+
+.footer_bottom_list {
+    width: calc(100% - 65px);
+}
+
+.footer_bottom_list ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer_bottom_list ul li a {
+    font-size: 14px;
+    color: var(--bgColor);
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* 
+======================
+ footer section End
+======================
+*/
