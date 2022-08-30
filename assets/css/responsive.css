@@ -62,6 +62,36 @@
     .why_chose_software_wrapper{
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .clint_tab_area_wrapper{
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .clint_tab_area_thumbnail{
+        width: 33.33%;
+        padding: 0px 10px;
+    }
+
+    .clint_tab_area_content{
+        width: 66.66%;
+        padding: 0px 30px;
+    }
+
+    .clint_tab_area_thumbnail_caption{
+        margin-left: 8%;
+        width: 66.66%;
+    }
+
+    .our_expert_section_wrapper{
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .our_expert_video,
+    .our_expert_content{
+        width: 50%;
+    }
 }
 
 @media(min-width: 1200px) {

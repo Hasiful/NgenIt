@@ -256,3 +256,50 @@ ul {
  footer section End
 ======================
 */
+
+/* home title */
+
+
+.business_seftion_content{}
+
+.home_title{
+    max-width: 760px;
+    width: 100%;
+    margin: 0px auto 30px;
+    
+}
+
+.home_title_heading {
+    font-size: 30px;
+    color: var(--heading);
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.home_title_heading span{
+    position: relative;
+}
+
+.home_title_heading span::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 20px;
+    background: #9f177a;
+    top: -5px;
+    left: 0px;
+}
+
+.home_title_text {
+    color: var(--navColor);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+/* home title */
