@@ -92,6 +92,19 @@
     .our_expert_content{
         width: 50%;
     }
+
+    .contact_body_wrapper{
+        flex-direction: row;
+        gap: 50px;
+    }
+    
+    .contact_left_content{
+        width: 40%;
+    }
+    
+    .right_contact_form{
+        width: 55%;
+    }
 }
 
 @media(min-width: 1200px) {

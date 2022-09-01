@@ -1606,3 +1606,152 @@ a.nav-link.active {
     ALL PAGE CREATE
 ==========================
 */
+
+
+/* log in page */
+
+.Login_form{
+    max-width: 480px;
+    margin: 0px auto;
+    padding: 24px;
+}
+
+.Login_form_content{
+    padding: 24px;
+    border: 1px solid #e6e6e5;
+}
+
+.Login_form_title{
+    color: var(--heading);
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.login_fomr_inner{
+    margin-bottom: 24px;
+}
+
+.login_fomr_inner label {
+    display: inline-block;
+    margin-bottom: 6px;
+    color: var(--navColor);
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login_fomr_inner input{
+    height: 100%;
+    width: 100%;
+    display: block;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #cbc4c3;
+    border-radius: 0;
+    color: #3e332d;
+    padding: 11px;
+    height: 48px;
+}
+
+.login_fomr_inner input:focus{
+    border-color: #95cfee;
+    box-shadow: 0 0 10px #95cfee;
+    outline-style: none;
+}
+
+.forgot_pass{
+    color: var(--mainColor);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.forgot_pass:hover{
+    color: var(--mainColor);
+}
+
+.submit_button{}
+.submit_button input{
+    display: block;
+    height: 48px;
+    width: 100%;
+    background-color: var(--mainColor);
+    outline: none;
+    color: var(--primaryColor);
+    border: none;
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.create_account {
+    display: block;
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 300;
+    color: var(--navColor);
+}
+
+.create_account span:nth-child(2){
+    color: var(--mainColor);
+}
+
+.create_account:hover span:nth-child(1){
+    color: var(--navColor);
+}
+
+/* log in page end*/
+
+
+/* contact page */
+
+.contact_banner{
+    height: 280px;
+    display: grid;
+    place-content: center;
+    background: url(../image/contact/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner_content_title {
+    text-align: center;
+    color: var(--primaryColor);
+    font-size: 54px;
+    line-height: 62px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.banner_content_title::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 40px;
+    background-color: var(--primaryColor);
+    bottom: -15%;
+    left: 6px;
+}
+
+.contact_body_wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contact_left_content{
+    width: 100%;
+}
+
+.right_contact_form{
+    width: 100%;
+}
+
+/* contact page end */
