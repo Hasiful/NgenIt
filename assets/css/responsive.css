@@ -38,6 +38,14 @@
     .industry_section_wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .form_item_wrapper{
+        flex-direction: row;
+    }
+    
+    .form_item_inner {
+        width: 49%;
+    }
 }
 
 @media(min-width: 991px) {
