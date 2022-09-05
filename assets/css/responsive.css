@@ -18,6 +18,15 @@
     .why_chose_software_wrapper{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .cart_item_content_utitlity {
+        align-items: center;;
+        flex-direction: row;
+        gap: 50px;
+    }
+    
+
+
 }
 
 @media(min-width: 767px) {
@@ -45,6 +54,33 @@
     
     .form_item_inner {
         width: 49%;
+    }
+
+    .your_cart_item_wrapper{
+        flex-direction: row;
+    }
+
+    .cart_item_image{
+        max-width: 150px;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+
+    .your_cart_item_wrapper {
+        align-items: center;
+    }
+
+    .cart_item_delete {
+        position: unset;
+    }
+
+    .cart_item_content {
+        width: calc(100% - 150px);
+    }
+
+    .cart_item_content_utitlity {
+        width: calc(100% - 20px);
     }
 }
 
@@ -142,5 +178,17 @@
     }
     .industry_section_wrapper {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cart_body_wrapper{
+        flex-direction: row;
+    }
+
+    .cart_body_left{
+        width: calc(100% - 25%);
+    }
+
+    .cart_sidebar_sumury{
+        width: 25%;
     }
 }
